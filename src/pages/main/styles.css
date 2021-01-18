@@ -1,0 +1,47 @@
+.user-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.user-list article{
+    background: #353537;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px; /* ESPAÇAMENTO DO CONTEUDO PRA BORDA DA DIV E COMO ELE SE EXPANDE NO ESPAÇO */
+    margin-bottom: 20px; /* ESPAÇAMENTO ESPAÇO ENTRE AS DIVS */
+}
+
+.user-list article strong{
+    
+    color:#ffff
+}
+
+.user-list article p{
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 5px; /* ESPAÇO PRA CIMA */
+    line-height: 24px; /* deixar mais proporcianl verticalmente */
+} 
+.user-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border:2px solid #3A0459; 
+    background: none;
+    margin-top: 10px;
+    color:#ffff; /* do conteudo */
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+    display: flex; /* fazer o botão ocupar todo o esço da div */
+    justify-content: center; /* ALINHAR O CONTEUDO HORIZONTALMENTE */
+    align-items: center; /* ALINHAR O CONTEUDO VERTICALMENTE */
+
+    transition: all 0.5s;
+}
+
+.user-list article a:hover{
+    background:#3A0459;
+    color: #FFF;
+}
+

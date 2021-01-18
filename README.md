@@ -1,10 +1,13 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## INTRODUÇÃO
 
-In the project directory, you can run:
+Listagem de usuários feita com React consumindo uma API pública https://jsonplaceholder.typicode.com/users urilizando Axios
+
+
+
+=======================================================
+
 
 ### `yarn start`
 

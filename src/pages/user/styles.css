@@ -1,0 +1,20 @@
+.user-info{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: #353537;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+}
+.user-info h1{
+    color: #ffff;
+    font-size: 32px;
+}
+.user-info p{
+    color: #ffff;
+    line-height: 24px; /* ESPAÇAMENTO DAS LINHAS */
+    margin-top: 5px;
+}
+.user-info a{
+    color: #069;
+}
